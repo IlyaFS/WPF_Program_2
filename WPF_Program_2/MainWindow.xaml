@@ -11,7 +11,9 @@
             <RowDefinition Height="80"/>
             <RowDefinition />
         </Grid.RowDefinitions>
-        <TextBox Grid.Row="0" Margin="1,1,1,0" Padding="30,30,30,5" BorderThickness="2,2,2,2" BorderBrush="#FF0C0C0E" CharacterCasing="Upper" FontFamily="Arial Black" FontSize="24" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" FlowDirection="RightToLeft" TextWrapping="NoWrap" Background="LightCyan"/>
+        <Border BorderThickness="2" BorderBrush="Gray">
+        <TextBlock Grid.Row="0" Padding="30,30,30,5" Background="LightCyan" FlowDirection="RightToLeft"/>
+        </Border>
         <UniformGrid Grid.Row="1" Rows="6" Columns="4">
             <Button Content="%" Margin="0.5" Background="LightSteelBlue"/>
             <Button Content="CE" Margin="0.5" Background="LightSteelBlue"/>
