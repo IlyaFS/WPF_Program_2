@@ -1,0 +1,43 @@
+﻿<Window x:Class="WPF_Program_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Program_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="400" MinHeight="250" MinWidth="100">
+    <Grid Background="YellowGreen">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <TextBox Grid.Row="0" Margin="1,1,1,0" Padding="30,30,30,5" BorderThickness="2,2,2,2" BorderBrush="#FF0C0C0E" CharacterCasing="Upper" FontFamily="Arial Black" FontSize="24" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" FlowDirection="RightToLeft" TextWrapping="NoWrap" Background="LightCyan"/>
+        <UniformGrid Grid.Row="1" Rows="6" Columns="4">
+            <Button Content="%" Margin="0.5" Background="LightSteelBlue"/>
+            <Button Content="CE" Margin="0.5" Background="LightSteelBlue"/>
+            <Button Content="C" Margin="0.5" Background="LightSteelBlue"/>
+            <Button Content="←" Margin="0.5,0.5,1,0.5" Background="LightSteelBlue"/>
+            <Button Content="1/x" Margin="0.5" Background="Lavender" />
+            <Button Content="x²" Margin="0.5" Background="Lavender"/>
+            <Button Content="√x" Margin="0.5" Background="Lavender"/>
+            <Button Content="÷" Margin="0.5,0.5,1,0.5" Background="LightSteelBlue"/>
+            <Button Content="7" Margin="0.5" Background="Lavender"/>
+            <Button Content="8" Margin="0.5" Background="Lavender"/>
+            <Button Content="9" Margin="0.5" Background="Lavender"/>
+            <Button Content="x" Margin="0.5,0.5,1,0.5" Background="LightSteelBlue"/>
+            <Button Content="4" Margin="0.5" Background="Lavender"/>
+            <Button Content="5" Margin="0.5" Background="Lavender"/>
+            <Button Content="6" Margin="0.5" Background="Lavender"/>
+            <Button Content="-" Margin="0.5,0.5,1,0.5" Background="LightSteelBlue"/>
+            <Button Content="1" Margin="0.5" Background="Lavender"/>
+            <Button Content="2" Margin="0.5" Background="Lavender"/>
+            <Button Content="3" Margin="0.5" Background="Lavender"/>
+            <Button Content="+" Margin="0.5" Background="LightSteelBlue"/>
+            <Button Content="±" Margin="0.5,0.5,0.5,1" Background="Lavender"/>
+            <Button Content="0" Margin="0.5,0.5,0.5,1" Background="Lavender"/>
+            <Button Content="," Margin="0.5,0.5,0.5,1" Background="Lavender"/>
+            <Button Content="=" Margin="0.5,0.5,1,1" Background="LightSteelBlue"/>
+        </UniformGrid>
+
+    </Grid>
+</Window>
